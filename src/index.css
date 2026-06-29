@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Bebas+Neue&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --font-heading: "Bebas Neue", sans-serif;
+  
+  --color-orange-accent: #FF6B00;
+  --color-charcoal: #1A1A1A;
+  --color-surface: #F8F8F8;
+  --color-gray-text: #6B6B6B;
+  --color-border-light: #F0F0F0;
+  --color-success-green: #22C55E;
+  --color-error-red: #EF4444;
+  --color-inactive-gray: #BDBDBD;
+}
+
+body {
+  background-color: #F2F2F7;
+  color: #1A1A1A;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Spacing system helpers */
+.space-xs { margin: 4px; }
+.space-sm { margin: 8px; }
+.space-md { margin: 16px; }
+.space-lg { margin: 24px; }
+.space-xl { margin: 32px; }
+.space-2xl { margin: 48px; }
+
+/* Hide scrollbars for layout elements while keeping scrollability */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Safe areas helper for notch mobile screens */
+.pb-safe-bottom {
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+/* Frosted glass backdrop filters */
+.glass-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 107, 0, 0.1);
+}
+
+.glass-dark {
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(26, 26, 26, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Rainbow border glow animation for the coach modal */
+.rainbow-glass {
+  position: relative;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+}
+.rainbow-glass::after {
+  content: '';
+  position: absolute;
+  inset: -1.5px;
+  border-radius: 25.5px;
+  padding: 1.5px;
+  background: linear-gradient(90deg, #FF6B00, #FFD9B5, #22C55E, #00D2FF, #FF6B00);
+  background-size: 400% 400%;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+  animation: rainbow-glow 8s linear infinite;
+}
+
+@keyframes rainbow-glow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Rainbow pulse ring for coach FAB */
+.rainbow-fab-ring {
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #FF6B00, #22C55E, #00D2FF, #FF6B00);
+  background-size: 200% 200%;
+  animation: rainbow-glow 3s linear infinite, fab-pulse 2s infinite;
+  z-index: -1;
+}
+
+@keyframes fab-pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0.2; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+/* Interactive card transitions */
+.btn-3d {
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.btn-3d:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 107, 0, 0.3);
+}
+.btn-3d:active {
+  transform: translateY(1px);
+  scale: 0.95;
+}
+
+.card-3d {
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+}
+.card-3d:hover {
+  transform: perspective(1000px) rotateX(1.5deg) translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.05);
+}
+.card-3d:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+/* Card gradient tints */
+.card-tint-1 { background: linear-gradient(135deg, #FFF5F0, #FFE8D6); }
+.card-tint-2 { background: linear-gradient(135deg, #F0F4FF, #E8EEFF); }
+.card-tint-3 { background: linear-gradient(135deg, #F0FFF4, #E8FFE8); }
+.card-tint-4 { background: linear-gradient(135deg, #FFF0F8, #FFE8F4); }
+.card-tint-5 { background: linear-gradient(135deg, #F5F0FF, #EDE8FF); }
+
+/* Muscle Categories Color Gradients */
+.gradient-chest { background: linear-gradient(135deg, #FFB5B5, #FF8C8C); }
+.gradient-back { background: linear-gradient(135deg, #B5D4FF, #7FB3FF); }
+.gradient-shoulders { background: linear-gradient(135deg, #FFD9B5, #FFB87F); }
+.gradient-biceps { background: linear-gradient(135deg, #B5FFC8, #7FFFA0); }
+.gradient-triceps { background: linear-gradient(135deg, #D9B5FF, #B87FFF); }
+.gradient-legs { background: linear-gradient(135deg, #FFFAB5, #FFF47F); }
+.gradient-core { background: linear-gradient(135deg, #FFB5E8, #FF7FD4); }
+.gradient-cardio { background: linear-gradient(135deg, #B5FFFA, #7FFFF4); }
+
+/* ── Auth screen utilities ──────────────────────────────────────── */
+@keyframes spin-once {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.animate-spin-once {
+  animation: spin-once 0.5s ease-out;
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite;
+}
+
+/* Auth input focus ring */
+.auth-input:focus {
+  outline: none;
+  border-color: #FF6B00;
+  box-shadow: 0 0 0 3px rgba(255, 107, 0, 0.15);
+}
+
+/* Smooth page transitions for auth screens */
+.auth-page-enter {
+  opacity: 0;
+  transform: translateX(40px);
+}
+.auth-page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.3s ease;
+}
+.auth-page-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.auth-page-exit-active {
+  opacity: 0;
+  transform: translateX(-40px);
+  transition: all 0.3s ease;
+}

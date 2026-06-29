@@ -1,0 +1,1294 @@
+{
+  "diet_program": {
+    "app_id": "antigravity_fitness_pwa",
+    "program_name": "AntiGravity Fat Burn & Shred",
+    "target": "Weight Loss & Muscle Retention",
+    "weekly_schedule": {
+      "Monday": {
+        "meals": [
+          {
+            "meal_type": "Early Morning (06:30 AM)",
+            "item_name": "Warm Lemon Water & Soaked Nuts",
+            "image_url": "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2.5g",
+              "carbs": "2g",
+              "fat": "8g",
+              "calories": "85 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Warm 1 glass of purified water.",
+                "Squeeze half of a fresh lemon directly into the warm water.",
+                "Do not add honey, jaggery, or sugar to maintain insulin-free lipolysis.",
+                "Consume alongside 5 soaked badam (peeled) and 2 walnut halves."
+              ],
+              "air_fryer": [
+                "Not Applicable: This drink is purely an extraction-based warm fluid."
+              ]
+            },
+            "health_tip": "Fasted healthy fats trigger metabolic pathways, priming the liver to oxidize stored abdominal tissues instead of dietary sugars."
+          },
+          {
+            "meal_type": "Breakfast (08:30 AM)",
+            "item_name": "Quick Egg White/Paneer Scramble",
+            "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "16g",
+              "carbs": "2.5g",
+              "fat": "5g",
+              "calories": "160 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Chop baby spinach leaves and bell peppers finely.",
+                "Whisk 3 egg whites (or crumble 100g of low-fat paneer).",
+                "Heat a non-stick pan on medium, apply a micro-spray of olive oil.",
+                "Sauté vegetables for 2 minutes, pour egg/paneer base, and scramble gently with pink salt and black pepper."
+              ],
+              "air_fryer": [
+                "Place chopped spinach and whisked egg whites (or paneer crumbles) into a greased silicone baking dish.",
+                "Preheat air fryer to 180°C.",
+                "Air-fry the dish for 6 minutes, pausing halfway to stir the mixture for a fluffy scramble."
+              ]
+            },
+            "health_tip": "A pure high-protein breakfast maintains ultra-flat insulin levels, shifting your metabolism immediately into a fat-burning state."
+          },
+          {
+            "meal_type": "Morning Tea (08:45 AM)",
+            "item_name": "Organic Green Tea",
+            "image_url": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0g",
+              "carbs": "0g",
+              "fat": "0g",
+              "calories": "0 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Bring 1 cup of water to a rolling boil.",
+                "Place 1 organic green tea bag in your mug.",
+                "Pour hot water over the bag and steep for exactly 3 minutes.",
+                "Discard the bag. Strictly do not add sugar or honey."
+              ],
+              "air_fryer": [
+                "Not Applicable: Pure water steeping must occur outside dry hot air pathways."
+              ]
+            },
+            "health_tip": "Green tea contains high levels of EGCG catechins that stimulate the nervous system to break down fat cells."
+          },
+          {
+            "meal_type": "Mid-Morning (11:00 AM)",
+            "item_name": "Citrus Fat-Burner Juice",
+            "image_url": "https://images.unsplash.com/photo-1613478223719-2ab802602423?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1g",
+              "carbs": "12g",
+              "fat": "0.1g",
+              "calories": "55 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Squeeze fresh grapefruit (1/2 piece) and 1/2 sweet orange.",
+                "Strain lightly to keep a moderate amount of gut-healthy pulp.",
+                "Add a pinch of pink salt and black pepper.",
+                "Serve fresh immediately. Do not store or add sweeteners."
+              ],
+              "air_fryer": [
+                "Not Applicable: Raw enzyme cold extractions require no heat application."
+              ]
+            },
+            "health_tip": "Grapefruit contains naringenin, an active bioflavonoid that increases insulin sensitivity and helps accelerate weight loss."
+          },
+          {
+            "meal_type": "Lunch (01:30 PM)",
+            "item_name": "High-Protein Grilled Chicken or Tofu Salad",
+            "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "31g",
+              "carbs": "4g",
+              "fat": "5g",
+              "calories": "230 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Cut chicken breast (150g) or tofu (150g) into cubes.",
+                "Season with ginger-garlic paste, lemon juice, salt, and oregano.",
+                "Sauté in a non-stick pan with a tiny drop of olive oil for 6-8 minutes.",
+                "Toss in a large salad bowl with chopped cucumbers, tomatoes, and lettuce."
+              ],
+              "air_fryer": [
+                "Marinate the chicken or tofu cubes with herbs and 1/2 tsp olive oil.",
+                "Air-fry at 180°C for 12 minutes, shaking the basket halfway.",
+                "Combine directly with crisp raw salad greens and lime juice."
+              ]
+            },
+            "health_tip": "Lean protein raises the Thermic Effect of Food (TEF), causing your body to burn up to 30% of its calories just to digest it!"
+          },
+          {
+            "meal_type": "Evening Snack (05:00 PM)",
+            "item_name": "Crispy Roasted Makhana & Chamomile Tea",
+            "image_url": "https://images.unsplash.com/photo-1505686994434-e3cc5abf1330?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "3g",
+              "carbs": "15g",
+              "fat": "2g",
+              "calories": "95 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Heat a dry flat pan on a very low flame.",
+                "Add 1 cup of raw makhana and dry roast for 8 minutes until crunchy.",
+                "Add a microscopic spray of ghee, pink salt, and pepper; toss well.",
+                "Serve alongside hot, fresh unsweetened chamomile tea."
+              ],
+              "air_fryer": [
+                "Place 1 cup of raw makhana inside the air fryer basket.",
+                "Air-fry at 160°C for 5 minutes (zero oil used).",
+                "Remove, spray slightly with olive oil, sprinkle salt, and shake well."
+              ]
+            },
+            "health_tip": "Makhana contains slow-digesting complex carbs. Chamomile reduces cortisol, directly preventing stress-induced fat accumulation."
+          },
+          {
+            "meal_type": "Pre-Workout (06:30 PM)",
+            "item_name": "Black Coffee & Peanut Butter Rice Cake",
+            "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "3.5g",
+              "carbs": "12g",
+              "fat": "6g",
+              "calories": "115 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Spread 1 tsp of sugar-free organic peanut butter on 1 whole brown rice cake.",
+                "Prepare a cup of hot unsweetened black coffee (1 tsp instant coffee in hot water).",
+                "Consume exactly 30 minutes prior to your high-intensity session."
+              ],
+              "air_fryer": [
+                "Place the peanut-butter coated rice cake inside the air fryer.",
+                "Air-fry at 160°C for 2 minutes to create a warm, crisp nut-butter toast melt."
+              ]
+            },
+            "health_tip": "Caffeine mobilizes fat tissues to release lipids into your blood, while the rice cake provides clean glycogen to burn them off."
+          },
+          {
+            "meal_type": "Dinner (08:30 PM)",
+            "item_name": "Garlic Grilled Chicken or Tofu with Greens",
+            "image_url": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "28g",
+              "carbs": "4g",
+              "fat": "3g",
+              "calories": "180 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Mince 3 garlic cloves. Season 150g chicken breast or tofu slabs.",
+                "Heat 1 tsp olive oil in a skillet, place the protein source inside.",
+                "Pan-grill for 6 minutes on each side.",
+                "Serve with hot water-steamed broccoli florets and chopped capsicum."
+              ],
+              "air_fryer": [
+                "Toss seasoned chicken/tofu cubes with minced garlic and a micro-spray of oil.",
+                "Air-fry at 180°C for 12 minutes alongside broccoli florets."
+              ]
+            },
+            "health_tip": "Eating clean protein with cruciferous greens before bed maximizes overnight growth hormone spikes, accelerating sleep lipolysis."
+          }
+        ]
+      },
+      "Tuesday": {
+        "meals": [
+          {
+            "meal_type": "Early Morning (06:30 AM)",
+            "item_name": "Cumin (Jeera) Steep & Fiber Charge",
+            "image_url": "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1.8g",
+              "carbs": "2g",
+              "fat": "4.5g",
+              "calories": "55 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil 1 tsp of cumin seeds in 1.5 cups of water for 5 minutes.",
+                "Strain the yellow-tinted warm water into a glass.",
+                "Stir in 1 tsp of soaked chia seeds.",
+                "Eat alongside 5 soaked, peeled almonds."
+              ],
+              "air_fryer": [
+                "Not Applicable: Clean fluid extraction processes must avoid air-fryer pathways."
+              ]
+            },
+            "health_tip": "Cumin contains active thymol which stimulates digestive enzymes, while chia fiber expands to block morning hunger cues."
+          },
+          {
+            "meal_type": "Breakfast (08:30 AM)",
+            "item_name": "Protein Toast & Hard Boiled Eggs",
+            "image_url": "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "14g",
+              "carbs": "15g",
+              "fat": "5g",
+              "calories": "210 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Toast 1 single slice of whole-grain multigrain bread on a dry pan.",
+                "Boil 2 eggs in a pot of water for 9 minutes.",
+                "Slice the peeled hard-boiled eggs (or season 100g mashed tofu with salt and turmeric).",
+                "Top the crispy toast with your egg slices or spiced tofu."
+              ],
+              "air_fryer": [
+                "Place a multigrain bread slice directly in the basket.",
+                "Crack 1 egg on top (or spread spiced tofu mash) and air-fry at 180°C for 6 minutes for an oil-free baked egg toast."
+              ]
+            },
+            "health_tip": "Pairing low-fat proteins with high-fiber complex carbs ensures satiety while preventing breakfast blood sugar spikes."
+          },
+          {
+            "meal_type": "Morning Tea (08:45 AM)",
+            "item_name": "Sugarless Ginger Tea",
+            "image_url": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0.1g",
+              "carbs": "0.5g",
+              "fat": "0g",
+              "calories": "2 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Crush a 1-inch piece of organic ginger root.",
+                "Boil in 1.5 cups of water for 5 minutes until fully infused.",
+                "Strain into a glass and drink hot. Do not add milk, honey, or sugars."
+              ],
+              "air_fryer": [
+                "Not Applicable: Steeping/boiling liquids requires a stovetop pan."
+              ]
+            },
+            "health_tip": "Gingerols in fresh ginger create a metabolic thermogenic rise, increasing passive resting calorie expenditures."
+          },
+          {
+            "meal_type": "Mid-Morning (11:00 AM)",
+            "item_name": "Berry-Protein Detox Smoothie",
+            "image_url": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "8g",
+              "carbs": "14g",
+              "fat": "0.5g",
+              "calories": "95 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Wash 5 fresh strawberries thoroughly.",
+                "Place in a blender along with 3 tbsp of unsweetened Greek yogurt.",
+                "Add a pinch of organic cinnamon powder and 1/2 cup cold water.",
+                "Blend until perfectly smooth and drink immediately."
+              ],
+              "air_fryer": [
+                "Not Applicable: Blended smoothies are served strictly raw and cold."
+              ]
+            },
+            "health_tip": "Berry polyphenols aid in limiting lipid synthesis, and cinnamon serves as a natural insulin regulator."
+          },
+          {
+            "meal_type": "Lunch (01:30 PM)",
+            "item_name": "Egg White Scramble & Cauliflower-Brown Rice Mix",
+            "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "20g",
+              "carbs": "18g",
+              "fat": "3g",
+              "calories": "210 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Grate cauliflower to create 1/2 cup of cauliflower rice.",
+                "Sauté cauliflower with 1/2 tsp ghee, onions, and boiled brown rice (1/3 cup).",
+                "Pour in 4 egg whites and scramble together directly in the pan until set."
+              ],
+              "air_fryer": [
+                "Not Applicable: Best scrambled and stirred on a traditional hot pan skillet."
+              ]
+            },
+            "health_tip": "Blending grated cauliflower into brown rice reduces the overall glycemic load of the meal by 50% while doubling gut fibers."
+          },
+          {
+            "meal_type": "Evening Snack (05:00 PM)",
+            "item_name": "Sprouted Moong Salad & Peppermint Green Tea",
+            "image_url": "https://images.unsplash.com/photo-1695599810769-bcde5a160d32?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "6g",
+              "carbs": "11g",
+              "fat": "0.2g",
+              "calories": "80 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Combine 1/2 cup raw sprouted moong dal in a bowl.",
+                "Toss with chopped cucumber, diced tomatoes, pink salt, and fresh lemon.",
+                "Serve cold along with a fresh mug of brewed peppermint green tea."
+              ],
+              "air_fryer": [
+                "Dry and pat the sprouts with paper towels.",
+                "Toss with salt and red pepper, then air-fry at 160°C for 5 minutes.",
+                "Add the crunchy sprouts to raw chopped cucumbers and onions."
+              ]
+            },
+            "health_tip": "Fresh sprouts offer bioavailable enzymes that boost cellular metabolism, and peppermint clears bowel gas."
+          },
+          {
+            "meal_type": "Pre-Workout (06:30 PM)",
+            "item_name": "Berry-Protein Active Shake",
+            "image_url": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "11g",
+              "carbs": "10g",
+              "fat": "0.5g",
+              "calories": "90 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Combine 5 blueberries/strawberries with 3 tbsp Greek yogurt.",
+                "Add 1/2 scoop vegan isolate protein powder and 1/2 cup water.",
+                "Blend thoroughly for 45 seconds."
+              ],
+              "air_fryer": [
+                "Mix yogurt, berries, protein powder, and 1 tsp oats inside a small oven-safe baking cup.",
+                "Air-fry at 170°C for 8 minutes to create a warm baked protein cake bowl."
+              ]
+            },
+            "health_tip": "Antioxidants reduce workout cellular oxidative stresses, while the protein inhibits muscle catabolism."
+          },
+          {
+            "meal_type": "Dinner (08:30 PM)",
+            "item_name": "Mushroom & Spinach Double Egg White Omelet",
+            "image_url": "https://images.unsplash.com/photo-1494597564530-871f2b93ac55?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "16g",
+              "carbs": "3g",
+              "fat": "1.5g",
+              "calories": "110 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Whisk 3 egg whites with a pinch of pepper and pink salt.",
+                "Water-sauté sliced mushrooms and baby spinach on a hot flat skillet.",
+                "Pour the egg whites over the vegetables and cook for 3 minutes per side until fluffy."
+              ],
+              "air_fryer": [
+                "Pour the egg white, mushroom, and spinach mixture into a greased baking pan.",
+                "Air-fry at 170°C for 8 minutes until the omelet rises and turns golden on top."
+              ]
+            },
+            "health_tip": "Egg white albumin is completely fat-free. Keeping dinner light prevents insulin blocks, allowing deep fat mobilization during sleep."
+          }
+        ]
+      },
+      "Wednesday": {
+        "meals": [
+          {
+            "meal_type": "Early Morning (06:30 AM)",
+            "item_name": "Apple Cider Vinegar (ACV) Cleanse",
+            "image_url": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1.3g",
+              "carbs": "1g",
+              "fat": "3g",
+              "calories": "35 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Fill 1 glass with warm water.",
+                "Add 1 tsp of organic Apple Cider Vinegar (with mother).",
+                "Stir well and consume immediately.",
+                "Eat alongside 5 soaked badam."
+              ],
+              "air_fryer": [
+                "Not Applicable: Solid air circulation does not coordinate with dynamic fluid steeps."
+              ]
+            },
+            "health_tip": "ACV acetic acids assist in improving insulin response while lowering early morning liver glucose outputs."
+          },
+          {
+            "meal_type": "Breakfast (08:30 AM)",
+            "item_name": "No-Cook Protein Curd Bowl",
+            "image_url": "https://images.unsplash.com/photo-1488477181946-6428a0291777?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "12g",
+              "carbs": "8g",
+              "fat": "3g",
+              "calories": "130 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Pour 150g of low-fat Greek yogurt (or home-set curd) in a glass bowl.",
+                "Whisk gently until smooth.",
+                "Sprinkle 1 tbsp chia seeds and 2 sliced fresh strawberries on top.",
+                "Ready to eat in under 2 minutes (zero stove required)."
+              ],
+              "air_fryer": [
+                "Not Applicable: Raw cold items do not require thermal air-fryer modes."
+              ]
+            },
+            "health_tip": "Chia seed soluble fiber swells in your stomach, keeping you completely full on very few calories."
+          },
+          {
+            "meal_type": "Morning Tea (08:45 AM)",
+            "item_name": "Pure Black Coffee",
+            "image_url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0g",
+              "carbs": "0g",
+              "fat": "0g",
+              "calories": "2 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil 1 cup of water.",
+                "Dissolve 1 tsp of organic instant coffee powder.",
+                "Do not add milk, creamers, or sweeteners."
+              ],
+              "air_fryer": [
+                "Not Applicable: Instant coffee brewing cannot occur in air baskets."
+              ]
+            },
+            "health_tip": "Pure black coffee accelerates basic resting BMR while supplying immediate focus neurotransmitters."
+          },
+          {
+            "meal_type": "Mid-Morning (11:00 AM)",
+            "item_name": "Watermelon & Basil Hydration Flush",
+            "image_url": "https://images.unsplash.com/photo-1571767274996-7ac20f4e38e1?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0.8g",
+              "carbs": "11g",
+              "fat": "0.2g",
+              "calories": "46 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blend 1 cup of diced seedless watermelon.",
+                "Add 3 fresh basil leaves and a squeeze of lime juice.",
+                "Serve immediately without straining to retain dietary fibers."
+              ],
+              "air_fryer": [
+                "Not Applicable: Raw, fresh, vitamin-filled fruit shakes bypass air-dry heat."
+              ]
+            },
+            "health_tip": "Watermelon L-citrulline helps improve blood flow and aids in clearing water retention/bloat."
+          },
+          {
+            "meal_type": "Lunch (01:30 PM)",
+            "item_name": "Lean Chicken & Soya Chunks Stir-Fry",
+            "image_url": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "28g",
+              "carbs": "6g",
+              "fat": "4g",
+              "calories": "210 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil and squeeze 40g dry soya chunks (or slice 100g chicken breast).",
+                "Sauté chopped garlic, sliced onions, and green bell peppers in a hot wok.",
+                "Add the protein base, black pepper, and 1 tsp soy sauce.",
+                "Stir-fry on high flame for 6 minutes."
+              ],
+              "air_fryer": [
+                "Toss boiled soya chunks (or chicken cubes) in curd, tandoori spices, and a spray of oil.",
+                "Air-fry at 180°C for 10 minutes until crispy, then toss with raw capsicum."
+              ]
+            },
+            "health_tip": "Soya chunks contain an exceptional plant protein ratio that supports muscle repair while maintaining flat blood sugar curves."
+          },
+          {
+            "meal_type": "Evening Snack (05:00 PM)",
+            "item_name": "Roasted Pumpkin & Sunflower Seeds with Green Tea",
+            "image_url": "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "4g",
+              "carbs": "3g",
+              "fat": "7g",
+              "calories": "90 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Place 1 tbsp of mixed pumpkin and sunflower seeds on a hot dry pan.",
+                "Roast on low heat for 3 minutes until warm.",
+                "Serve with a hot cup of organic green tea."
+              ],
+              "air_fryer": [
+                "Spread the mixed seeds on a piece of parchment paper.",
+                "Air-fry at 150°C for 3 minutes until golden-crisp."
+              ]
+            },
+            "health_tip": "Pumpkin seeds are highly rich in zinc and magnesium which directly support metabolic and thyroid health."
+          },
+          {
+            "meal_type": "Pre-Workout (06:30 PM)",
+            "item_name": "Banana & Raw Soaked Almonds",
+            "image_url": "https://images.unsplash.com/photo-1528825871115-3581a5387919?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2.5g",
+              "carbs": "22g",
+              "fat": "3.5g",
+              "calories": "120 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Peel 1 raw medium banana.",
+                "Serve alongside 5 soaked, peeled badam directly."
+              ],
+              "air_fryer": [
+                "Slice the banana in half, sprinkle a pinch of cinnamon.",
+                "Air-fry at 180°C for 5 minutes until caramelized, serve with badam."
+              ]
+            },
+            "health_tip": "Potassium in bananas safeguards against muscle cramps, and almond healthy fats guarantee sustained clean energy."
+          },
+          {
+            "meal_type": "Dinner (08:30 PM)",
+            "item_name": "Air-Fried Lemon Herb Crispy Chicken",
+            "image_url": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "31g",
+              "carbs": "2.5g",
+              "fat": "3.5g",
+              "calories": "165 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Slice 150g boneless chicken breast into thin strips.",
+                "Marinate with garlic paste, lemon juice, dried oregano, and pink salt for 10 minutes.",
+                "Sear on a non-stick pan with a tiny drop of olive oil for 4 minutes on each side until fully cooked."
+              ],
+              "air_fryer": [
+                "Marinate the 150g chicken strips in lemon juice, garlic, pinch of black pepper, and 1/2 tsp olive oil.",
+                "Preheat your air fryer to 180°C.",
+                "Lay strips in a single layer and Air-fry at 180°C for 10-12 minutes, flipping once halfway for juicy, crispy edges!"
+              ]
+            },
+            "health_tip": "Using the Air Fryer for chicken breast minimizes extra fat while preserving muscle-rebuilding protein. Lemon juice provides Vitamin C to enhance mineral absorption."
+          }
+        ]
+      },
+      "Thursday": {
+        "meals": [
+          {
+            "meal_type": "Early Morning (06:30 AM)",
+            "item_name": "Fennel (Saunf) Infusion & Brain Fuel",
+            "image_url": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2.5g",
+              "carbs": "2g",
+              "fat": "8g",
+              "calories": "85 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Soak 1 tsp of fennel seeds in 1 glass of water overnight.",
+                "Boil and warm the infusion slightly in the morning, then strain.",
+                "Eat with 5 soaked peeled almonds and 2 walnuts."
+              ],
+              "air_fryer": [
+                "Not Applicable: Clean fluid extractions cannot use hot air-fryer units."
+              ]
+            },
+            "health_tip": "Fennel acts as a mild diuretic, purging excess water retention to reveal leaner muscle definitions."
+          },
+          {
+            "meal_type": "Breakfast (08:30 AM)",
+            "item_name": "High-Fiber Oats Pancake / Omelet",
+            "image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "14g",
+              "carbs": "11g",
+              "fat": "2g",
+              "calories": "160 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blend 2 tbsp of raw oats into a fine powder.",
+                "Whisk with 2 egg whites (or mix with 50g grated paneer and water).",
+                "Pour on a warm non-stick skillet, cooking for 2 minutes on each side."
+              ],
+              "air_fryer": [
+                "Pour the blended batter into a small baking dish.",
+                "Air-fry at 180°C for 8 minutes to create a thick oil-free baked pancake."
+              ]
+            },
+            "health_tip": "Oats supply digestion-resistant starch, releasing steady fuel for daytime activity with zero sugar spikes."
+          },
+          {
+            "meal_type": "Morning Tea (08:45 AM)",
+            "item_name": "Jasmine Green Tea",
+            "image_url": "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0g",
+              "carbs": "0g",
+              "fat": "0g",
+              "calories": "0 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Steep 1 jasmine green tea bag in 1 cup of boiling water for 3 minutes.",
+                "Remove bag. Enjoy the natural aromatic scent."
+              ],
+              "air_fryer": [
+                "Not Applicable: Hot water steeping occurs strictly inside glass mugs."
+              ]
+            },
+            "health_tip": "Jasmine aromatics lower serum cortisol levels, shifting the body out of nervous fight-or-flight fat storage."
+          },
+          {
+            "meal_type": "Mid-Morning (11:00 AM)",
+            "item_name": "Pineapple-Ginger Digestive Smoothie",
+            "image_url": "https://images.unsplash.com/photo-1610970881699-125f25cc6f3d?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1.5g",
+              "carbs": "16g",
+              "fat": "0.2g",
+              "calories": "75 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blend 3 small slices of fresh pineapple.",
+                "Add a handful of raw baby spinach and a 1/2-inch slice of ginger.",
+                "Add 1/2 cup water and blend thoroughly."
+              ],
+              "air_fryer": [
+                "Not Applicable: Raw enzyme foods must bypass thermal heating modules."
+              ]
+            },
+            "health_tip": "Pineapple bromelain digests proteins, and ginger acts as a direct thermogenic stimulant."
+          },
+          {
+            "meal_type": "Lunch (01:30 PM)",
+            "item_name": "Moong Dal Soup & Portion-Controlled Brown Rice",
+            "image_url": "https://images.unsplash.com/photo-1547592165-e1d17fed6005?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "10g",
+              "carbs": "28g",
+              "fat": "0.8g",
+              "calories": "190 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil 1 large bowl of yellow moong dal with turmeric and pink salt.",
+                "Prepare exactly 1/3 cup of boiled brown rice.",
+                "Serve warm with 1 sliced cucumber on the side."
+              ],
+              "air_fryer": [
+                "Slice 1 raw papad.",
+                "Air-fry at 180°C for 2 minutes to enjoy a zero-oil crunch with your dal."
+              ]
+            },
+            "health_tip": "Restricting rice to a 1/3 cup portion provides slow-burn complex carbs without causing insulin spikes."
+          },
+          {
+            "meal_type": "Evening Snack (05:00 PM)",
+            "item_name": "Roasted Chana (Bengal Gram) & Lemon Ginger Tea",
+            "image_url": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "7g",
+              "carbs": "16g",
+              "fat": "1.8g",
+              "calories": "110 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Serve 1 handful (30g) of dry-roasted skinless brown chana.",
+                "Prepare a hot mug of lemon ginger herbal infusion."
+              ],
+              "air_fryer": [
+                "Air-fry the pre-roasted chana at 140°C for 3 minutes for an extra-crispy hot texture."
+              ]
+            },
+            "health_tip": "Roasted chana has a very low glycemic index, releasing sugars slowly to prevent late-afternoon crashes."
+          },
+          {
+            "meal_type": "Pre-Workout (06:30 PM)",
+            "item_name": "Spinach, Green Apple & Ginger Smoothie",
+            "image_url": "https://images.unsplash.com/photo-1610970881699-125f25cc6f3d?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2g",
+              "carbs": "15g",
+              "fat": "0.2g",
+              "calories": "75 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blend a handful of fresh spinach, 1/2 sliced green apple, and 1/2-inch ginger.",
+                "Add 1 cup of cold water and blend smoothly."
+              ],
+              "air_fryer": [
+                "Not Applicable: Raw cold fruit shakes cannot utilize high thermal baskets."
+              ]
+            },
+            "health_tip": "Iron in spinach aids oxygen transport during workouts, while ginger raises core body temperature."
+          },
+          {
+            "meal_type": "Dinner (08:30 PM)",
+            "item_name": "Garlic Mushroom, Paneer & Capsicum Stir-Fry",
+            "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "18g",
+              "carbs": "5g",
+              "fat": "9g",
+              "calories": "195 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Sauté minced garlic and sliced capsicum in a pan.",
+                "Add 100g mushrooms and 100g paneer cubes.",
+                "Stir-fry on high heat for 5 minutes with black pepper and 1 tsp soy sauce."
+              ],
+              "air_fryer": [
+                "Toss mushroom, paneer, and capsicum slices with garlic powder and a drop of olive oil.",
+                "Air-fry at 180°C for 8 minutes for a dry roasted texture."
+              ]
+            },
+            "health_tip": "Mushrooms contain active beta-glucans, keeping overnight glycogen processing stable."
+          }
+        ]
+      },
+      "Friday": {
+        "meals": [
+          {
+            "meal_type": "Early Morning (06:30 AM)",
+            "item_name": "Turmeric-Black Pepper Anti-Inflammatory Shot",
+            "image_url": "https://images.unsplash.com/photo-1596513324660-84c6ef6e61be?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1.3g",
+              "carbs": "1g",
+              "fat": "3g",
+              "calories": "35 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Mix 1/4 tsp organic turmeric and a pinch of black pepper in 1 cup of warm water.",
+                "Stir and consume instantly.",
+                "Eat alongside 5 soaked almonds."
+              ],
+              "air_fryer": [
+                "Not Applicable: Raw mineral shots do not support air circulation heat."
+              ]
+            },
+            "health_tip": "Curcumin reduction of systemic inflammation facilitates easier adipocyte lipid breakdown."
+          },
+          {
+            "meal_type": "Breakfast (08:30 AM)",
+            "item_name": "Zero-Fat Sprouts Power Bowl",
+            "image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "9g",
+              "carbs": "16g",
+              "fat": "0.5g",
+              "calories": "120 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Mix 1 cup of fresh raw sprouted moong in a bowl.",
+                "Toss with chopped onion, tomato, lemon juice, and pink salt.",
+                "No cooking required."
+              ],
+              "air_fryer": [
+                "For a crunchy texture, air-fry dry sprouts at 160°C for 5 minutes before tossing with raw veggies."
+              ]
+            },
+            "health_tip": "Sprouts provide extreme volume and live enzymes, signaling fullness with zero weight-gain risks."
+          },
+          {
+            "meal_type": "Morning Tea (08:45 AM)",
+            "item_name": "Unsweetened Black Filter Coffee",
+            "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0g",
+              "carbs": "0g",
+              "fat": "0g",
+              "calories": "3 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Brew fresh coffee filter decoction.",
+                "Mix with hot water without adding sugar or milk."
+              ],
+              "air_fryer": [
+                "Not Applicable: Filter drippers require a standard hot kettle."
+              ]
+            },
+            "health_tip": "Pure coffee speeds up your basal metabolic rate by 3-11% for elevated morning thermogenesis."
+          },
+          {
+            "meal_type": "Mid-Morning (11:00 AM)",
+            "item_name": "Sweet Pomegranate Antioxidant Booster",
+            "image_url": "https://images.unsplash.com/photo-1622484211148-916c148fd523?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1g",
+              "carbs": "18g",
+              "fat": "0.3g",
+              "calories": "80 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Press 1/2 cup pomegranate seeds to extract fresh red juice.",
+                "Drink immediately to prevent active antioxidant loss. Do not add sweeteners."
+              ],
+              "air_fryer": [
+                "Not Applicable: Fresh organic fruit extraction must avoid heat sources."
+              ]
+            },
+            "health_tip": "Pomegranates are loaded with conjugated linolenic acids, aiding overall visceral fat mobilization."
+          },
+          {
+            "meal_type": "Lunch (01:30 PM)",
+            "item_name": "Mustard Grilled Fish or Paneer Salad",
+            "image_url": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "26g",
+              "carbs": "2g",
+              "fat": "5g",
+              "calories": "200 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Marinate 150g fish fillet or 120g low-fat paneer with mustard paste, lemon, and oregano.",
+                "Pan-sear on a non-stick skillet for 4 minutes on each side.",
+                "Serve on a bed of fresh spinach and lettuce leaves."
+              ],
+              "air_fryer": [
+                "Place the marinated fish/paneer in the basket.",
+                "Air-fry at 180°C for 10 minutes until juicy and charred."
+              ]
+            },
+            "health_tip": "Fish fatty acids improve leptin (satiety) hormone signaling, reducing stubborn stomach visceral fat storage."
+          },
+          {
+            "meal_type": "Evening Snack (05:00 PM)",
+            "item_name": "Sautéed Garlic Mushrooms & Hibiscus Tea",
+            "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2.5g",
+              "carbs": "4g",
+              "fat": "1g",
+              "calories": "50 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Sauté 5-6 sliced button mushrooms with minced garlic, pepper, and a micro-spray of oil for 5 minutes.",
+                "Serve hot with freshly brewed unsweetened hibiscus tea."
+              ],
+              "air_fryer": [
+                "Toss sliced mushrooms with garlic powder, pepper, and a drop of oil.",
+                "Air-fry at 180°C for 8 minutes."
+              ]
+            },
+            "health_tip": "Mushrooms are rich in selenium, and hibiscus tea decreases adipose tissue inflammation."
+          },
+          {
+            "meal_type": "Pre-Workout (06:30 PM)",
+            "item_name": "Oats Cocoa Lean Builder Smoothie",
+            "image_url": "https://images.unsplash.com/photo-1505252585461-04db1ebb846d?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "12g",
+              "carbs": "18g",
+              "fat": "2g",
+              "calories": "135 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blend 2 tbsp oats powder, 1 tsp unsweetened cocoa, and 1/2 scoop protein powder with water."
+              ],
+              "air_fryer": [
+                "Mix oats, cocoa, protein, and 3 tbsp water inside a mug.",
+                "Air-fry at 180°C for 6 minutes to make a warm, clean pre-workout chocolate cake."
+              ]
+            },
+            "health_tip": "Oats maintain flat insulin responses, and dark cocoa epicatechins boost healthy blood circulation."
+          },
+          {
+            "meal_type": "Dinner (08:30 PM)",
+            "item_name": "Smoky Pan-Grilled Paneer or Tofu Tikka",
+            "image_url": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "18g",
+              "carbs": "8g",
+              "fat": "12g",
+              "calories": "210 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Marinate 150g paneer/tofu in curd, lemon, tandoori masala.",
+                "Sear on a grill pan with zero oil until slightly charred."
+              ],
+              "air_fryer": [
+                "Thread marinated paneer/tofu, onions, and capsicum on wooden skewers.",
+                "Air-fry at 190°C for 8 minutes for an oil-free tandoori texture."
+              ]
+            },
+            "health_tip": "Slow-release dairy casein feeds muscle recovery pathways during deep sleep phases."
+          }
+        ]
+      },
+      "Saturday": {
+        "meals": [
+          {
+            "meal_type": "Early Morning (06:30 AM)",
+            "item_name": "Copper-Charged Pure Hydration",
+            "image_url": "https://images.unsplash.com/photo-1548816155-12df9643f363?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2.5g",
+              "carbs": "2g",
+              "fat": "8g",
+              "calories": "85 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Drink 1 glass of water stored overnight in a copper vessel.",
+                "Eat with 5 soaked peeled almonds and 2 walnuts."
+              ],
+              "air_fryer": [
+                "Not Applicable: Clean fluid hydration skips hot air baskets."
+              ]
+            },
+            "health_tip": "Copper-charged water trace elements assist in the breakdown of fat cells (lipolysis)."
+          },
+          {
+            "meal_type": "Breakfast (08:30 AM)",
+            "item_name": "5-Min Paneer & Tofu Bhurji (Strictly Veg)",
+            "image_url": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "14g",
+              "carbs": "4g",
+              "fat": "8g",
+              "calories": "150 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Water-sauté chopped onions and chilies on a dry pan.",
+                "Add 120g of crumbled paneer or tofu.",
+                "Scramble with turmeric and salt for 4 minutes."
+              ],
+              "air_fryer": [
+                "Sauté seasoned tofu/paneer with onions in a foil pouch.",
+                "Air-fry at 190°C for 7 minutes for a dry roasted texture."
+              ]
+            },
+            "health_tip": "By avoiding bread and eggs entirely, you keep Saturday strictly low-carb, low-calorie, and 100% vegetarian."
+          },
+          {
+            "meal_type": "Morning Tea (08:45 AM)",
+            "item_name": "Earl Grey Black Tea",
+            "image_url": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0g",
+              "carbs": "0g",
+              "fat": "0g",
+              "calories": "1 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Steep 1 Earl Grey tea bag in hot water.",
+                "Add a squeeze of lemon if desired. Strictly no sugar."
+              ],
+              "air_fryer": [
+                "Not Applicable: Loose leaf steeps bypass air-dry heat."
+              ]
+            },
+            "health_tip": "Bergamot orange extracts in Earl Grey tea improve gut microbiota balances."
+          },
+          {
+            "meal_type": "Mid-Morning (11:00 AM)",
+            "item_name": "Chia-Peach Fiber Smoothie",
+            "image_url": "https://images.unsplash.com/photo-1502741224143-90386d7dd8c9?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2g",
+              "carbs": "13g",
+              "fat": "2.5g",
+              "calories": "85 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blend 1 sliced fresh peach with 1/2 cup unsweetened almond milk.",
+                "Stir in 1 tsp pre-soaked chia seeds."
+              ],
+              "air_fryer": [
+                "Not Applicable: Raw cold enzyme smoothies bypass heating channels."
+              ]
+            },
+            "health_tip": "Peaches are very low-calorie stone fruits. Chia seeds expand in the stomach, controlling early hunger pangs."
+          },
+          {
+            "meal_type": "Lunch (01:30 PM)",
+            "item_name": "Garlic Mushroom, Paneer & Tofu Warm Salad (Strictly Veg)",
+            "image_url": "https://images.unsplash.com/photo-1494597564530-871f2b93ac55?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "18g",
+              "carbs": "5g",
+              "fat": "8g",
+              "calories": "170 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Chop 100g mushrooms, 100g organic tofu, and 50g low-fat paneer.",
+                "Sauté in a dry pan with a splash of water and chopped spinach.",
+                "Stir-fry for 5 minutes with black pepper and turmeric."
+              ],
+              "air_fryer": [
+                "Toss mushrooms, spinach, tofu, and paneer slices with garlic powder, pepper, and a drop of olive oil.",
+                "Air-fry at 180°C for 8 minutes, shaking halfway."
+              ]
+            },
+            "health_tip": "This warm salad combines mushrooms with plant-based proteins, delivering a rich profile with a minimal glycemic index."
+          },
+          {
+            "meal_type": "Evening Snack (05:00 PM)",
+            "item_name": "Spicy Roasted Broccoli Bites & Jasmine Tea",
+            "image_url": "https://images.unsplash.com/photo-1608797178974-15b35a61d121?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "2.2g",
+              "carbs": "5g",
+              "fat": "0.5g",
+              "calories": "45 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blanch broccoli florets for 2 minutes.",
+                "Sauté on high heat with a drop of olive oil and chili flakes for 4 minutes until charred.",
+                "Serve with hot jasmine tea."
+              ],
+              "air_fryer": [
+                "Toss broccoli with garlic and chili flakes.",
+                "Air-fry at 190°C for 6 minutes."
+              ]
+            },
+            "health_tip": "Cruciferous broccoli activates fat-burning gene pathways."
+          },
+          {
+            "meal_type": "Pre-Workout (06:30 PM)",
+            "item_name": "Black Coffee & Banana Energizer",
+            "image_url": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1.5g",
+              "carbs": "24g",
+              "fat": "0.2g",
+              "calories": "105 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Consume 1 medium banana.",
+                "Drink 1 cup of unsweetened hot black coffee."
+              ],
+              "air_fryer": [
+                "Slice the banana, spray coconut oil, and air-fry at 190°C for 6 minutes."
+              ]
+            },
+            "health_tip": "Caffeine raises adrenaline, and banana carbs sustain high glycogen rates."
+          },
+          {
+            "meal_type": "Dinner (08:30 PM)",
+            "item_name": "Clear Soft Tofu & Vegetable Reset Broth (Strictly Veg)",
+            "image_url": "https://images.unsplash.com/photo-1607532941433-304659e8198a?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "10g",
+              "carbs": "4g",
+              "fat": "1.8g",
+              "calories": "95 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil mixed vegetable broth with ginger and garlic.",
+                "Stir in 100g of soft crumbled tofu and chopped spinach.",
+                "Simmer for 5 minutes and serve warm."
+              ],
+              "air_fryer": [
+                "Not Applicable: Cleansing vegetable broths require direct steam boiling."
+              ]
+            },
+            "health_tip": "Soft tofu provides essential recovery aminos without heavy lipids, flushing out excess sodium bloating."
+          }
+        ]
+      },
+      "Sunday": {
+        "meals": [
+          {
+            "meal_type": "Early Morning (06:30 AM)",
+            "item_name": "Ginger-Lemon Digestive Kick",
+            "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1.3g",
+              "carbs": "1g",
+              "fat": "3g",
+              "calories": "35 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil ginger slices in water for 5 minutes.",
+                "Strain, add lemon juice, and consume warm.",
+                "Eat with 5 soaked almonds."
+              ],
+              "air_fryer": [
+                "Not Applicable: Steeping fluids cannot be processed inside air-fryers."
+              ]
+            },
+            "health_tip": "Ginger acts as a natural thermogenic agent, lifting your BMR upon waking."
+          },
+          {
+            "meal_type": "Breakfast (08:30 AM)",
+            "item_name": "Oats Daliya Porridge (Sustained Release)",
+            "image_url": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "10g",
+              "carbs": "24g",
+              "fat": "1.5g",
+              "calories": "190 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil 3 tbsp oats and 2 tbsp washed moong dal in 1.5 cups of water.",
+                "Season with salt, turmeric, and ginger.",
+                "Cook for 8 minutes on low-medium heat until thick and creamy."
+              ],
+              "air_fryer": [
+                "Not Applicable: Porridges must simmer on direct stove heat."
+              ]
+            },
+            "health_tip": "Combining yellow dal with oats secures a perfect, complete amino acid rebuilding configuration."
+          },
+          {
+            "meal_type": "Morning Tea (08:45 AM)",
+            "item_name": "Ginger Lemon Herbal Infusion",
+            "image_url": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "0g",
+              "carbs": "1g",
+              "fat": "0g",
+              "calories": "4 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Boil ginger slices, strain, and stir in fresh lemon juice.",
+                "Strictly zero honey."
+              ],
+              "air_fryer": [
+                "Not Applicable: Liquid steeps cannot coordinate with air fryers."
+              ]
+            },
+            "health_tip": "This vitamin-C rich infusion flushes out toxins, preparing the body for another high-performance week."
+          },
+          {
+            "meal_type": "Mid-Morning (11:00 AM)",
+            "item_name": "Fresh Sweet Orange Fiber-Rich Juice",
+            "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "1.3g",
+              "carbs": "16g",
+              "fat": "0.1g",
+              "calories": "70 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Squeeze oranges to extract 1 cup of juice.",
+                "Keep the pulp. Do not strain or add sugar."
+              ],
+              "air_fryer": [
+                "Not Applicable: Cold pulp extractions require raw hand-presses."
+              ]
+            },
+            "health_tip": "Orange pulp delivers dietary fiber along with Vitamin C, stopping weekend sweet cravings."
+          },
+          {
+            "meal_type": "Lunch (01:30 PM)",
+            "item_name": "High-Protein Portion-Controlled Chicken or Paneer Biryani",
+            "image_url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "32g",
+              "carbs": "24g",
+              "fat": "6g",
+              "calories": "310 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Marinate 150g chicken or 120g paneer in yogurt and tandoori spices.",
+                "Cook the protein on medium-low.",
+                "Layer 1/2 cup parboiled basmati rice over the protein base, cover tightly, and steam (dum) for 8 minutes."
+              ],
+              "air_fryer": [
+                "Not Applicable: Multi-layer wet steam cookery (dum) requires stove handis."
+              ]
+            },
+            "health_tip": "By doubling the protein ratio and strictly limiting the rice portion, you satisfy weekend cravings with minimal insulin spikes."
+          },
+          {
+            "meal_type": "Evening Snack (05:00 PM)",
+            "item_name": "Roasted Masala Peanuts & Earl Grey Mint Tea",
+            "image_url": "https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "4.5g",
+              "carbs": "4g",
+              "fat": "9g",
+              "calories": "120 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Dry roast raw peanuts in a pan on low flame for 8 minutes.",
+                "Toss with chopped onions, tomatoes, coriander, and fresh lemon."
+              ],
+              "air_fryer": [
+                "Air-fry raw peanuts at 160°C for 5 minutes, shake every 2 minutes.",
+                "Toss with spices and lemon juice instantly."
+              ]
+            },
+            "health_tip": "Monounsaturated fats in peanuts trigger satiety signals, and lemon aids iron absorption."
+          },
+          {
+            "meal_type": "Pre-Workout (06:30 PM)",
+            "item_name": "Almond Date Recovery Shake",
+            "image_url": "https://images.unsplash.com/photo-1502741224143-90386d7dd8c9?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "4g",
+              "carbs": "14g",
+              "fat": "4.5g",
+              "calories": "110 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Blend 1 cup almond milk, a pinch of cinnamon, 1 dried date, and 1 tsp chia seeds."
+              ],
+              "air_fryer": [
+                "Not Applicable: Cold fluid recovery protein shakes do not require heat."
+              ]
+            },
+            "health_tip": "Cinnamon is a natural insulin sensitizer, helping muscle fibers absorb aminos efficiently."
+          },
+          {
+            "meal_type": "Dinner (08:30 PM)",
+            "item_name": "Air-Fried Garlic Pepper Chicken Breast",
+            "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=600&auto=format&fit=crop",
+            "macros": {
+              "protein": "29g",
+              "carbs": "3g",
+              "fat": "4g",
+              "calories": "160 kcal"
+            },
+            "cooking_methods": {
+              "normal": [
+                "Cut 150g clean chicken breast into small cubes.",
+                "Marinate with minced garlic (3 cloves), lemon juice, pink salt, and freshly ground black pepper.",
+                "Sauté in a non-stick pan with 1/2 tsp of olive oil for 8 minutes on medium flame."
+              ],
+              "air_fryer": [
+                "Marinate 150g cubed chicken breast with garlic powder, black pepper, pink salt, and a micro-spray of olive oil.",
+                "Preheat your air fryer to 180°C.",
+                "Spread the chicken cubes inside the basket and Air-fry at 180°C for 11 minutes until golden-crisp on the outside and tender inside!"
+              ]
+            },
+            "health_tip": "Black pepper has piperine which elevates fat-burning processes. Air frying chicken cubes on Sunday night satisfies your palate with zero heavy oils before bed."
+          }
+        ]
+      }
+    }
+  }
+}
