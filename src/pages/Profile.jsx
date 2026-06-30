@@ -48,7 +48,7 @@ export const Profile = () => {
   const [profilePhoto, setProfilePhoto] = useState(profile?.photoUrl || localStorage.getItem("sn-gym-profile-photo") || "");
 
   // Preferences configuration states
-  const [unitPref, setUnitPref] = useState(profile?.unitPref || "kg");
+  const [unitPref, setUnitPref] = useState(profile?.unitPref?.weight || (typeof profile?.unitPref === "string" ? profile.unitPref : "kg"));
   const [defaultRest, setDefaultRest] = useState(profile?.defaultRest || 90);
   const [language, setLanguage] = useState(profile?.language || "English");
   const [theme, setTheme] = useState(profile?.theme || "Light");
@@ -90,7 +90,7 @@ export const Profile = () => {
       height: Number(height),
       weeklyGoal: Number(weeklyGoal),
       targetWeight: Number(targetWeight),
-      unitPref,
+      unitPref: { weight: unitPref, length: unitPref === "kg" ? "cm" : "in" },
       defaultRest: Number(defaultRest),
       language,
       theme,
@@ -419,6 +419,25 @@ export const Profile = () => {
                     onChange={e => setWeeklyGoal(e.target.value)}
                     className="w-full bg-surface border border-transparent focus:border-orange-accent focus:bg-white rounded-full py-3 px-5 text-xs font-semibold outline-none transition-all"
                   />
+                </div>
+              </div>
+
+
+              {/* F41-F46 — AI COACH CONFIGURATION */}
+              <div className="border-t border-gray-100 pt-4 flex flex-col gap-3">
+                <h5 className="text-[10px] font-black uppercase tracking-wider text-orange-accent">AI Coach Configuration</h5>
+                <div>
+                  <label className="text-[10px] text-gray-400 font-bold uppercase block mb-1">Gemini API Key</label>
+                  <input 
+                    type="password" 
+                    value={apiKey} 
+                    onChange={e => setApiKey(e.target.value)}
+                    placeholder="Enter your Gemini API Key (starts with AIzaSy)"
+                    className="w-full bg-surface border border-transparent focus:border-orange-accent focus:bg-white rounded-full py-3 px-5 text-xs font-semibold outline-none transition-all"
+                  />
+                  <p className="text-[8px] text-gray-400 font-bold uppercase tracking-wider mt-1.5 px-1 leading-normal">
+                    Get a free key from Google AI Studio. This enables unlimited real-time fitness coaching.
+                  </p>
                 </div>
               </div>
 

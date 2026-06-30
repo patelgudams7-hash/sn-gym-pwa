@@ -205,12 +205,12 @@ export const ApexCoach = () => {
               animate={{ y: 0 }}
               exit={{ y: "100%" }}
               transition={{ type: "spring", stiffness: 320, damping: 30 }}
-              className="relative w-full max-w-md rounded-t-4xl shadow-[0_-8px_32px_rgba(0,0,0,0.1)] overflow-hidden flex flex-col pointer-events-auto z-10 border border-white/50"
+              className="relative w-full max-w-md rounded-t-4xl shadow-[0_-12px_40px_rgba(0,0,0,0.15)] overflow-hidden flex flex-col pointer-events-auto z-10 border-t border-x border-white/45"
               style={{
-                height: "60%",
-                background: "rgba(240,240,245,0.7)",
-                backdropFilter: "blur(40px)",
-                WebkitBackdropFilter: "blur(40px)"
+                height: "82%",
+                background: "rgba(255, 255, 255, 0.45)",
+                backdropFilter: "blur(30px) saturate(180%)",
+                WebkitBackdropFilter: "blur(30px) saturate(180%)"
               }}
             >
               {/* Rainbow animated gradient border top */}

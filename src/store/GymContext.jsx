@@ -291,32 +291,86 @@ export const GymProvider = ({ children }) => {
     const uid = user.uid;
 
     loadUserData(uid).then((cloudData) => {
-      if (!cloudData || cloudData.profile === null) {
-        // Brand-new user: push current localStorage state up to Firestore
+      const realName = user.displayName || user.email?.split("@")[0] || "Warrior";
+      
+      if (!cloudData || !cloudData.profile) {
+        // Brand-new user: initialize CLEAN state (no mock data) and bootstrap to Firestore
         if (!bootstrappedRef.current) {
           bootstrappedRef.current = true;
+          
+          const cleanProfile = {
+            name: realName,
+            age: 26,
+            height: 180,
+            weight: 79.5,
+            targetWeight: 75.0,
+            unitPref: {
+              weight: "kg",
+              length: "cm"
+            },
+            weeklyGoal: 4,
+            currentStreak: 0,
+            longestStreak: 0,
+            xp: 0,
+            level: 1,
+            rankTitle: "Beginner",
+            badges: [],
+            lockedBadges: ["Early Bird", "Consistency King", "Iron Master", "Water Champion", "PR Destroyer", "Perfect Week", "Fasting Master", "Plate Crusher"]
+          };
+          
+          const cleanPlans = defaultPlans;
+          const cleanHistory = [];
+          const cleanMeasurements = [];
+          const cleanPRs = {};
+          const cleanGoals = [];
+          
+          setProfile(cleanProfile);
+          setPlans(cleanPlans);
+          setHistory(cleanHistory);
+          setMeasurements(cleanMeasurements);
+          setPersonalRecords(cleanPRs);
+          setCustomGoals(cleanGoals);
+          
           bootstrapNewUser(uid, {
-            profile,
-            plans,
-            history,
-            measurements,
-            goals: customGoals,
-            dietPlan,
-            weeklyDietSchedule,
-            routineSchedule,
-            fastingState,
-            anthropicKey
+            profile: cleanProfile,
+            plans: cleanPlans,
+            history: cleanHistory,
+            measurements: cleanMeasurements,
+            goals: cleanGoals,
+            dietPlan: {},
+            weeklyDiet: {},
+            settings: {
+              routineSchedule: {
+                "Monday": "plan-push",
+                "Wednesday": "plan-pull",
+                "Friday": "plan-legs"
+              },
+              fastingState: {
+                isActive: false,
+                startTime: null,
+                durationHours: 16
+              },
+              anthropicKey: ""
+            }
           });
         }
       } else {
         // Existing user: hydrate state from Firestore
         bootstrappedRef.current = true;
-        if (cloudData.profile) setProfile(cloudData.profile);
+        
+        let mergedProfile = { ...cloudData.profile };
+        // Sync name if it's currently default 'Warrior' and real displayName is available
+        if ((mergedProfile.name === "Warrior" || mergedProfile.name === "") && realName !== "Warrior") {
+          mergedProfile.name = realName;
+          saveProfile(uid, mergedProfile);
+        }
+        
+        setProfile(mergedProfile);
         if (cloudData.plans?.length) setPlans(cloudData.plans);
-        if (cloudData.history?.length) setHistory(cloudData.history);
-        if (cloudData.measurements?.length) setMeasurements(cloudData.measurements);
-        if (cloudData.goals?.length) setCustomGoals(cloudData.goals);
-        if (cloudData.dietPlan && Object.keys(cloudData.dietPlan).length) setDietPlan(cloudData.dietPlan);
+        setHistory(cloudData.history || []);
+        setMeasurements(cloudData.measurements || []);
+        setCustomGoals(cloudData.goals || []);
+        if (cloudData.dietPlan) setDietPlan(cloudData.dietPlan);
         if (cloudData.weeklyDiet) {
           const { updatedAt, ...schedule } = cloudData.weeklyDiet;
           setWeeklyDietSchedule(schedule);

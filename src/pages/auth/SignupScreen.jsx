@@ -107,6 +107,7 @@ const SignupScreen = () => {
 
       <div className="flex-1 px-8 pt-8 pb-10 flex flex-col justify-between overflow-y-auto no-scrollbar">
         <div className="flex flex-col mb-8 select-none">
+          <img src="/logo-barbell.jpg" alt="SN GYM" className="h-14 w-auto object-contain self-start mb-4" />
           <h1 className="text-3xl font-black text-black leading-none tracking-tight">Create account</h1>
         </div>
 

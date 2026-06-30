@@ -135,10 +135,32 @@ const generateLocalResponse = (text) => {
 
 export const askCoach = async (userMessage, chatHistory = []) => {
   try {
-    const rawKey = import.meta.env.VITE_GEMINI_API_KEY || "";
-    const cleanKey = rawKey.replace(/\.+$/, "");
+    let cleanKey = "";
+    
+    // 1. Try reading the user-configured API key from localStorage
+    try {
+      const stored = localStorage.getItem("sngym_anthropic_key");
+      if (stored) {
+        // Strip out quotes if stored as a JSON string
+        cleanKey = JSON.parse(stored);
+      }
+    } catch (e) {
+      const raw = localStorage.getItem("sngym_anthropic_key");
+      if (raw) cleanKey = raw;
+    }
+
+    if (cleanKey) {
+      cleanKey = cleanKey.replace(/^"|"$/g, '').trim();
+    }
+
+    // 2. Fall back to VITE_GEMINI_API_KEY if no user key is configured
     if (!cleanKey) {
-      throw new Error("No Gemini API Key provided");
+      const rawKey = import.meta.env.VITE_GEMINI_API_KEY || "";
+      cleanKey = rawKey.replace(/\.+$/, "").trim();
+    }
+
+    if (!cleanKey || cleanKey.includes("...")) {
+      throw new Error("No valid Gemini API Key provided");
     }
 
     const genAI = new GoogleGenerativeAI(cleanKey);

@@ -91,6 +91,7 @@ const LoginScreen = () => {
 
       <div className="flex-1 px-8 pt-10 pb-10 flex flex-col justify-between">
         <div className="flex flex-col mb-10 select-none">
+          <img src="/logo-barbell.jpg" alt="SN GYM" className="h-16 w-auto object-contain self-start mb-5" />
           <h1 className="text-[54px] font-black text-black leading-none tracking-tight">Hello</h1>
           <p className="text-gray-400 font-bold text-sm tracking-wide mt-2">Sign in to your account</p>
         </div>
