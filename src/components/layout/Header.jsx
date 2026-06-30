@@ -23,7 +23,7 @@ export const Header = () => {
 
       {/* Center: App logo "SN GYM" */}
       <Link to="/" className="flex items-center active:scale-98 transition-transform">
-        <img src="/logo-dumbbell.jpg" alt="SN GYM" className="h-18 w-auto object-contain" />
+        <img src="/logo-dumbbell-new.png" alt="SN GYM" className="h-18 w-auto object-contain" />
       </Link>
 
       {/* Right: Bell notification icon + dot badge */}
