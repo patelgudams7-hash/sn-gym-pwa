@@ -4,6 +4,8 @@ import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   signInWithPopup,
+  signInWithRedirect,
+  getRedirectResult,
   signOut,
   sendEmailVerification,
   sendPasswordResetEmail,
@@ -27,11 +29,26 @@ export const AuthProvider = ({ children }) => {
   const [authError, setAuthError] = useState(null);
 
   useEffect(() => {
+    // 1. Listen for auth state changes
     const unsub = onAuthStateChanged(auth, (firebaseUser) => {
       setUser(firebaseUser);
       setIsVerified(firebaseUser?.emailVerified ?? false);
       setLoading(false);
     });
+
+    // 2. Handle redirect login results (ideal for PWAs / Mobile browser scopes)
+    getRedirectResult(auth)
+      .then((result) => {
+        if (result?.user) {
+          setUser(result.user);
+          setIsVerified(result.user.emailVerified ?? false);
+        }
+      })
+      .catch((e) => {
+        console.error("Firebase Redirect Login Error:", e);
+        setAuthError(formatError(e.code));
+      });
+
     return unsub;
   }, []);
 
@@ -47,9 +64,11 @@ export const AuthProvider = ({ children }) => {
       "auth/invalid-email": "Please enter a valid email address.",
       "auth/too-many-requests": "Too many attempts. Please wait a moment.",
       "auth/popup-closed-by-user": "Google sign-in was cancelled.",
+      "auth/unauthorized-domain": "Unauthorized Domain: Please add your Vercel URL to the 'Authorized domains' list in your Firebase Console (Authentication -> Settings).",
+      "auth/operation-not-allowed": "Google Sign-In is disabled. Please enable Google provider in your Firebase Console (Authentication -> Sign-in method).",
       "auth/network-request-failed": "Network error. Check your connection."
     };
-    return map[code] || "Something went wrong. Please try again.";
+    return map[code] || `Authentication error (${code}). Please check your Firebase settings.`;
   };
 
   const loginWithEmail = async (email, password) => {
@@ -84,9 +103,16 @@ export const AuthProvider = ({ children }) => {
       const result = await signInWithPopup(auth, googleProvider);
       return { success: true, user: result.user };
     } catch (e) {
-      const msg = formatError(e.code);
-      setAuthError(msg);
-      return { success: false, error: msg };
+      console.warn("Firebase Google popup blocked or failed. Trying redirect login fallback...", e);
+      try {
+        await signInWithRedirect(auth, googleProvider);
+        return { success: true };
+      } catch (redirectErr) {
+        console.error("Firebase Google redirect failed too:", redirectErr);
+        const msg = formatError(redirectErr.code || e.code);
+        setAuthError(msg);
+        return { success: false, error: msg };
+      }
     }
   };
 

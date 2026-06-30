@@ -10,7 +10,7 @@ export const Header = () => {
   const initials = profile?.name ? profile.name.slice(0, 2).toUpperCase() : "SN";
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-[rgba(255,255,255,0.85)] backdrop-blur-[20px] border-b border-[rgba(255,107,0,0.1)] px-5 py-3.5 flex items-center justify-between shadow-xs select-none">
+    <header className="sticky top-0 z-40 w-full bg-[rgba(255,255,255,0.85)] backdrop-blur-[20px] border-b border-[rgba(255,107,0,0.1)] px-5 py-1.5 flex items-center justify-between shadow-xs select-none">
       {/* Left: User avatar circle */}
       <Link 
         to="/profile" 
@@ -23,7 +23,7 @@ export const Header = () => {
 
       {/* Center: App logo "SN GYM" */}
       <Link to="/" className="flex items-center active:scale-98 transition-transform">
-        <img src="/logo-dumbbell.jpg" alt="SN GYM" className="h-9 w-auto object-contain" />
+        <img src="/logo-dumbbell.jpg" alt="SN GYM" className="h-18 w-auto object-contain" />
       </Link>
 
       {/* Right: Bell notification icon + dot badge */}
